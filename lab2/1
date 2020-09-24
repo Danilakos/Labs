@@ -1,0 +1,19 @@
+#include <iostream>
+#include <math.h>
+
+int main()
+{
+	float x1, y1;
+	float x2, y2;
+
+	printf("Enter the first poin's coordinates");
+	scanf_s("%f %f", &x1, &y1);
+	printf("Enter the second poin's coordinates");
+	scanf_s("%f %f", &x2, &y2);
+
+	float length = sqrt (pow((x1 - x2), 2) + pow((y1 - y2), 2));
+
+	printf("The length is %.2f", length);
+	return 0;
+
+}
