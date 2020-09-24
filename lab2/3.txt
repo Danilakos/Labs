@@ -1,0 +1,13 @@
+#include <iostream>
+#include <math.h>
+int main()
+{
+    float a, b, c;
+    printf("Enter 3 coordinates (A, C, B)");
+    scanf_s("%f %f %f", &a, &c, &b);
+
+    printf("The length betwen A and B is %.2f, Product of AC and BC is %.2lf", abs(a - b), abs(a - c) * abs(b - c) );
+
+    return 0;
+}
+

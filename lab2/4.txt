@@ -1,0 +1,15 @@
+#include <iostream>
+#include <math.h>
+int main()
+{
+    float x1, y1, x2, y2;
+
+    printf("Enter the first top");
+    scanf_s ("%f %f", &x1, &y1);
+    printf("Enter the second top");
+    scanf_s ("%f %f", &x2, &y2);
+
+    printf("The perimetr is %.2f, The Square is %.2f", 2 * (abs(x1 - x2) + abs(y1 - y2)), abs(x1 - x2) * abs(y1 - y2));
+    
+    return 0;
+}
